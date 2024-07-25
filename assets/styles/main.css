@@ -4,6 +4,7 @@
 
 html, body, #__nuxt{
     height: 100%;
+    font-family: "Manrope", sans-serif;
 }
 
 tbody {

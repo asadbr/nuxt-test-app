@@ -11,7 +11,7 @@
                 <span class="text-[#9ea1b0] text-xl">Комиссия:</span>
                 <span class="text-[#031138] text-xl">334,43 ₽</span>
               </div>
-              <span>—</span>
+              <span>&#x2022;</span>
               <div class="space-x-2">
                 <span class="text-[#9ea1b0] text-xl">Фин. результат:</span>
                 <span class="text-[#031138] text-xl">76 354,82 ₽</span>
@@ -36,31 +36,31 @@ const tableHeads = [
 
 const tableItems = [
   {
-    instrument: "Apple",
-    update: "10:00",
-    position: "Buy",
-    commission: "0.1",
-    financialResult: 100,
-    drawdown: "10%",
-    leverage: "1:100",
+    instrument: "GAZP",
+    update: "20:20:28  24-06-24",
+    position: "644",
+    commission: "0",
+    financialResult: "426 216,4",
+    drawdown: "-6 000 000",
+    leverage: "10",
   },
   {
-    instrument: "Google",
-    update: "11:00",
-    position: "Sell",
-    commission: "0.2",
-    financialResult: -50,
-    drawdown: "20%",
-    leverage: "1:200",
+    instrument: "SBER",
+    update: "20:20:28  24-06-24",
+    position: "532",
+    commission: "334, 43",
+    financialResult: "360 232,68",
+    drawdown: "-6 000 000",
+    leverage: "10",
   },
   {
-    instrument: "Microsoft",
-    update: "12:00",
-    position: "Buy",
-    commission: "0.3",
-    financialResult: 150,
-    drawdown: "30%",
-    leverage: "1:300",
+    instrument: "TATNP",
+    update: "20:20:28  24-06-24",
+    position: "32915",
+    commission: "0",
+    financialResult: "10 371,1",
+    drawdown: "-6 000 000",
+    leverage: "10",
   },
 ];
 </script>

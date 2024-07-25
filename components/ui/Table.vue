@@ -36,12 +36,7 @@
             >
               {{ item.commission }}
             </td>
-            <td
-              :class="[
-                'p-4 text-xl border-0 rounded-xl',
-                item.financialResult > 0 ? 'text-green-600' : 'text-red-600',
-              ]"
-            >
+            <td :class="['p-4 text-xl border-0 rounded-xl text-red-600']">
               {{ item.financialResult }}
             </td>
             <td
@@ -68,7 +63,7 @@ type TItem = {
   update: string;
   position: string;
   commission: string;
-  financialResult: number;
+  financialResult: string;
   drawdown: string;
   leverage: string;
 };
