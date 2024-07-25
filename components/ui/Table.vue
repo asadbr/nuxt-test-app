@@ -15,39 +15,67 @@
           </tr>
         </thead>
         <tbody class="rounded-xl bg-[#fbfbfb]">
-          <tr v-for="(item, index) in items" :key="index" class="border-0">
+          <tr v-for="(item, index) in items" :key="index" class="td-padding">
             <td
-              class="px-4 py-2.5 text-xl font-normal text-[#031138] border-0 rounded-xl uppercase"
+              :class="[
+                { 'pt-5': index === 0 },
+                { 'pb-5': index === items.length - 1 },
+              ]"
+              class="px-5 py-2.5 text-xl font-normal text-[#031138] border-0 rounded-xl uppercase"
             >
               {{ item.instrument }}
             </td>
             <td
-              class="px-4 py-2.5 text-xl font-normal text-[#031138] border-0 rounded-xl"
+              :class="[
+                { 'pt-5': index === 0 },
+                { 'pb-5': index === items.length - 1 },
+              ]"
+              class="px- py-2.5 text-xl font-normal text-[#031138] border-0 rounded-xl"
             >
               {{ item.update }}
             </td>
             <td
+              :class="[
+                { 'pt-5': index === 0 },
+                { 'pb-5': index === items.length - 1 },
+              ]"
               class="px-4 py-2.5 text-xl font-normal text-[#031138] border-0 rounded-xl"
             >
               {{ item.position }}
             </td>
             <td
+              :class="[
+                { 'pt-5': index === 0 },
+                { 'pb-5': index === items.length - 1 },
+              ]"
               class="px-4 py-2.5 text-xl font-normal text-[#031138] border-0 rounded-xl"
             >
               {{ item.commission }}
             </td>
             <td
-              :class="['px-4 py-2.5 text-xl border-0 rounded-xl text-red-600']"
+              :class="[
+                { 'pt-5': index === 0 },
+                { 'pb-5': index === items.length - 1 },
+              ]"
+              class="px-4 py-2.5 text-xl border-0 rounded-xl text-red-600"
             >
               {{ item.financialResult }}
             </td>
             <td
+              :class="[
+                { 'pt-5': index === 0 },
+                { 'pb-5': index === items.length - 1 },
+              ]"
               class="px-4 py-2.5 text-xl font-normal text-[#031138] border-0 rounded-xl"
             >
               {{ item.drawdown }}
             </td>
             <td
-              class="px-4 py-2.5 text-xl font-normal text-[#031138] border-0 rounded-xl"
+              :class="[
+                { 'pt-5': index === 0 },
+                { 'pb-5': index === items.length - 1 },
+              ]"
+              class="px-5 py-2.5 text-xl font-normal text-[#031138] border-0 rounded-xl"
             >
               {{ item.leverage }}
             </td>
