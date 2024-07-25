@@ -6,7 +6,7 @@
           <div
             class="rounded-xl shadow-[0_0_0_2px_#f4f4f4] p-4 mt-6 bg-[#fbfbfb]"
           >
-            <div class="flex justify-center items-center gap-x-4">
+            <div class="flex justify-center items-center gap-x-3">
               <div class="space-x-2">
                 <span class="text-[#9ea1b0] text-xl">Комиссия:</span>
                 <span class="text-[#031138] text-xl">334,43 ₽</span>
