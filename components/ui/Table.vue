@@ -8,7 +8,7 @@
             <th
               v-for="(head, index) in heads"
               :key="index"
-              class="py-2 px-4 text-left text-xl font-normal text-[#9ea1b0]"
+              class="pb-6 px-4 text-left text-xl font-normal text-[#9ea1b0]"
             >
               {{ head }}
             </th>
