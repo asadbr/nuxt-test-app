@@ -4,7 +4,7 @@
       <UiTable title="Акции" :heads="tableHeads" :items="tableItems">
         <template #default>
           <div
-            class="rounded-xl shadow-[0_0_0_2px_#f4f4f4] p-5 mt-4 bg-[#fbfbfb]"
+            class="rounded-xl border-2 border-[#f4f4f4] p-5 mt-4 bg-[#fbfbfb]"
           >
             <div class="flex justify-center items-center gap-x-3">
               <div class="space-x-2">
