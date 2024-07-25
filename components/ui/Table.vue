@@ -17,35 +17,37 @@
         <tbody class="rounded-xl bg-[#fbfbfb]">
           <tr v-for="(item, index) in items" :key="index" class="border-0">
             <td
-              class="p-4 text-xl font-normal text-[#031138] border-0 rounded-xl uppercase"
+              class="px-4 py-2.5 text-xl font-normal text-[#031138] border-0 rounded-xl uppercase"
             >
               {{ item.instrument }}
             </td>
             <td
-              class="p-4 text-xl font-normal text-[#031138] border-0 rounded-xl"
+              class="px-4 py-2.5 text-xl font-normal text-[#031138] border-0 rounded-xl"
             >
               {{ item.update }}
             </td>
             <td
-              class="p-4 text-xl font-normal text-[#031138] border-0 rounded-xl"
+              class="px-4 py-2.5 text-xl font-normal text-[#031138] border-0 rounded-xl"
             >
               {{ item.position }}
             </td>
             <td
-              class="p-4 text-xl font-normal text-[#031138] border-0 rounded-xl"
+              class="px-4 py-2.5 text-xl font-normal text-[#031138] border-0 rounded-xl"
             >
               {{ item.commission }}
             </td>
-            <td :class="['p-4 text-xl border-0 rounded-xl text-red-600']">
+            <td
+              :class="['px-4 py-2.5 text-xl border-0 rounded-xl text-red-600']"
+            >
               {{ item.financialResult }}
             </td>
             <td
-              class="px-4 text-xl font-normal text-[#031138] border-0 rounded-xl"
+              class="px-4 py-2.5 text-xl font-normal text-[#031138] border-0 rounded-xl"
             >
               {{ item.drawdown }}
             </td>
             <td
-              class="p-4 text-xl font-normal text-[#031138] border-0 rounded-xl"
+              class="px-4 py-2.5 text-xl font-normal text-[#031138] border-0 rounded-xl"
             >
               {{ item.leverage }}
             </td>
