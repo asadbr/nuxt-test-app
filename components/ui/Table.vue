@@ -14,8 +14,8 @@
             </th>
           </tr>
         </thead>
-        <tbody class="rounded-xl bg-[#fbfbfb]">
-          <tr v-for="(item, index) in items" :key="index" class="td-padding">
+        <tbody class="rounded-xl bg-[#fbfbfb] shadow-[0_0_0_2px_#f4f4f4]">
+          <tr v-for="(item, index) in items" :key="index">
             <td
               :class="[
                 { 'pt-5 rounded-tl-xl': index === 0 },
@@ -59,7 +59,7 @@
                 { 'text-green-600': index % 2 === 0 },
                 { 'text-red-600': index % 2 !== 0 },
               ]"
-              class="px-4 py-2.5 text-xl border-0 text-red-600"
+              class="px-4 py-2.5 text-xl border-0"
             >
               {{ item.financialResult }}
             </td>

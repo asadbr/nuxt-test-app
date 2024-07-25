@@ -48,7 +48,7 @@ const tableItems = [
     instrument: "SBER",
     update: "20:20:28  24-06-24",
     position: "532",
-    commission: "334, 43",
+    commission: "334,43",
     financialResult: "360 232,68",
     drawdown: "-6 000 000",
     leverage: "10",
